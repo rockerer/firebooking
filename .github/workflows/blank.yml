@@ -43,4 +43,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run the main php script
-        run: php scr/main.php
+        run: php $GITHUB_WORKSPACE/scr/main.php
