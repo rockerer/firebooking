@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: This will fail
-        run: false
+      - name: This will not fail anymore
+        run: true
