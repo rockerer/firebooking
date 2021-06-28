@@ -43,7 +43,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run the main php script
-        run: php $GITHUB_WORKSPACE/src/main.php
-
-      - name: Run the main php script again
         run: php src/main.php
