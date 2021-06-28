@@ -37,3 +37,10 @@ jobs:
 
       - name: This will not fail anymore
         run: true
+
+  test:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run some other stuff
+        run: echo Hello, there
